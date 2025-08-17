@@ -12,7 +12,7 @@ This project details the simulation of a protein-ligand complex. The primary goa
 
 3.  **Minimization & Equilibration:** The standard energy minimization and NVT/NPT equilibration protocols were applied, with position restraints on both the protein and the ligand.
 
-4.  **Production MD:** A 100 ns production simulation was run to observe the behavior of the ligand within the protein's binding pocket.
+4.  **Production MD:** A 10 ns production simulation was run to observe the behavior of the ligand within the protein's binding pocket.
 
 ---
 

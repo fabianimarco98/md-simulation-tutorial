@@ -1,36 +1,19 @@
-# Part A: Simple Protein-Membrane System
+# Part A: Simple Lipid Bilayer Simulation
 
-This project demonstrates the setup and simulation of a transmembrane protein embedded in a simple, symmetric POPC lipid bilayer. The primary goal was to learn the standard workflow using CHARMM-GUI and understand the specific protocols required for membrane equilibration.
+This project demonstrates the setup and simulation of a simple, symmetric POPC lipid bilayer patch (membrane only). The primary goal was to learn the standard workflow using CHARMM-GUI for building membranes and to understand the specific protocols and analyses required for lipid bilayer equilibration.
 
 ---
 
 ## Workflow Overview
 
-1.  **System Building with CHARMM-GUI:** The entire system was constructed using the CHARMM-GUI web server. This tool automated the process of orienting the protein in the membrane and building the surrounding POPC bilayer, solvent, and ions.
+1.  **System Building with CHARMM-GUI:** The system, a 100-lipid POPC bilayer, was constructed using the CHARMM-GUI web server. This tool automated the process of building the membrane patch, adding solvent, and ions.
 
-2.  **Multi-step Equilibration:** CHARMM-GUI provides a robust, multi-step equilibration protocol designed to slowly relax the system. This involves a series of short simulations with gradually decreasing position restraints on the protein, lipids, and water.
+2.  **Multi-step Equilibration:** CHARMM-GUI provides a robust, multi-step equilibration protocol designed to slowly relax the system. This involves a series of short simulations with gradually decreasing position restraints on the lipids and water.
 
-3.  **Production MD:** Following equilibration, a 200 ns production simulation was run to observe the interactions between the protein and the lipid environment.
-
----
-
-## Key Results & Analysis
-
-### System Stability (RMSD)
-
-The RMSD of the protein's backbone atoms was monitored to ensure its structural integrity. The stable RMSD indicates that the protein does not undergo significant conformational changes.
-
-![Protein RMSD in Membrane](./3_results/protein_rmsd_membrane.png)
-
-### Membrane Properties (Area per Lipid)
-
-The area per lipid was calculated to confirm that the membrane itself was properly equilibrated. The convergence of this value to the expected experimental value for a POPC bilayer confirms the quality of the simulation.
-
-![Area per Lipid Plot](./3_results/area_per_lipid.png)
+3.  **Production MD:** Following equilibration, a 1 ns production simulation was run to analyze the properties of the equilibrated bilayer.
 
 ---
 
 ## Conclusion
 
-This project was a successful exercise in simulating a membrane protein system. It highlights proficiency with advanced system-building tools like CHARMM-GUI and an understanding of the specific analysis techniques associated with membrane simulations.
-
+This project was a successful exercise in building and simulating a pure lipid bilayer. It highlights proficiency with advanced system-building tools like CHARMM-GUI and an understanding of the specific analysis techniques associated with membrane simulations, such as calculating area per lipid and order parameters.
