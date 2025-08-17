@@ -17,7 +17,7 @@ Below is a list of the projects included in this repository. Click on any projec
 * ### [Session 3: A Protein-Ligand Simulation](./session3_protein_ligand_simulation/)
     * **Description:** Simulation of a protein-ligand complex, focusing on ligand parameterization using the CGenFF server. The analysis includes assessing the stability of the ligand in the binding pocket and exploring the system's dynamics through Principal Component Analysis (PCA) and Free Energy Landscapes.
 
-* ### [Session 4: Dealing with Metallic Ligands](./session4_metalloprotein_simulation/)
+* ### [Session 4: Dealing with Metallic Ligands](./session4_metalloprotein_simulation/) --> **work in progress**
     * **Description:** An advanced project on handling non-standard residues, specifically a metal-coordinating ligand. This workflow utilizes AmberTools (MCPB.py) for parameter generation and Acpype for converting between AMBER and GROMACS formats.
 
 * ### [Session 5: Bio-Membrane Simulations](./session5_membrane_simulation/)
