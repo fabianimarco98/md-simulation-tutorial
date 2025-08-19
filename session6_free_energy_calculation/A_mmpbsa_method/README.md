@@ -14,12 +14,9 @@ This project demonstrates the calculation of binding free energy for the 1CEA pr
 
 ## Key Results
 
-The analysis yielded a final estimated binding free energy of **[Inserisci il tuo valore qui, es. -150.2 ± 15.5 kJ/mol]**. The key energy components are summarized below:
+The analysis yielded a final estimated binding free energy of [27.70 kcal/mol]**. The key energy components are summarized below:
 
-* **ΔE_vdw:** [Tuo valore] kJ/mol
-* **ΔE_elec:** [Tuo valore] kJ/mol
-* **ΔG_polar:** [Tuo valore] kJ/mol
-* **ΔG_nonpolar:** [Tuo valore] kJ/mol
+![free gibbs energy of the complex](../results/free-energy-complex.png)
 
 The final results files (`.dat` and `.csv`) containing the detailed energy breakdown are included in the `3_results` folder.
 
