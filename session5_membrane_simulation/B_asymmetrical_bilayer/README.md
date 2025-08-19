@@ -24,11 +24,7 @@ The Area Per Lipid (APL) for the outer leaflet was calculated using the Voronoi 
 
 ![Voronoi APL Plot](./3_results/voronoi_apl.png)
 
-### Re-evaluation of Leaflet Composition
 
-The initial APL calculation revealed a value of [**Inserisci il tuo valore qui, es. 72 Å²**], which was higher than the expected experimental target. This suggests that the initial lipid composition resulted in suboptimal packing. Based on this, the composition of the outer leaflet was re-evaluated, likely requiring an adjustment of [**descrivi l'aggiustamento, es. the cholesterol to lipid ratio**] to achieve a more realistic membrane density.
-
-*[Allega qui il tuo file spreadsheet con i calcoli, se vuoi]*
 
 ---
 
