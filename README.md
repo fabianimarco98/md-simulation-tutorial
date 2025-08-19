@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Software-GROMACS-007EC6?style=for-the-badge" alt="Software: GROMACS">
+  <img src="https://img.shields.io/badge/Analysis-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Analysis: Python">
+  <img src="https://img.shields.io/badge/Visualization-VMD/PyMOL-3D8B4F?style=for-the-badge" alt="Visualization: VMD/PyMOL">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status: Completed">
+</p>
+
 # GROMACS Molecular Dynamics Workshop Projects
 
 This repository contains a collection of projects completed during the **1st inSilicoSci GROMACS Workshop** (July-August 2025). Each project, corresponding to a workshop session, is self-contained in its own directory and demonstrates the application of MD simulations to progressively complex biomolecular systems.
