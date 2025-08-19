@@ -2,7 +2,8 @@
   <img src="https://img.shields.io/badge/Software-GROMACS-007EC6?style=for-the-badge" alt="Software: GROMACS">
   <img src="https://img.shields.io/badge/Analysis-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Analysis: Python">
   <img src="https://img.shields.io/badge/Visualization-VMD/PyMOL-3D8B4F?style=for-the-badge" alt="Visualization: VMD/PyMOL">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status: Work in progress">
+  <img src="https://img.shields.io/badge/Status-WorkinProgress-success?style=for-the-badge" alt="Status: Work in progress">
+  
 </p>
 
 # GROMACS Molecular Dynamics Workshop Projects
